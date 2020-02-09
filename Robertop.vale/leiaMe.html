@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div style="text-align:center">
+        <strong>
+            ROBERTO PEREIRA DOVALE<br />
+            Telefones:(011)9.7541.5675<br />
+            robertop.vale@gmail.com<br />
+        </strong>
+    </div>
+
+    <p>&nbsp;</p><p>&nbsp;</p>
+    <p><strong>&nbsp;chamadas get (selecionar o produto)</strong> http://localhost:5507/api/produto/43264</p>
+    <p>&nbsp;</p>
+    <p><strong>chamadas post (Inserir o produto)</strong> http://localhost:5507/api/produto/<br />XML para inserir<br /> {<br /> "sku": 43265,<br /> "name": "teste",<br /> "inventory": {<br /> "Lwarehouses": [<br /> {<br /> "locality": "SCS",<br /> "quantity": 2,<br /> "type": "teste bla"<br /> },<br /> {<br /> "locality": "RJ",<br /> "quantity": 4,<br /> "type": "teste bla bla bla"<br /> }<br /> ]<br /> },<br /> }</p>
+    <p>&nbsp;</p>
+    <p><strong>chamadas delete (excluir um produto)</strong>http://localhost:5507/api/produto?sku=43264<br />parametro sku=43265</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><strong>chamadas Put (altera&ccedil;&atilde;o nos dados do produto)</strong> http://localhost:5507/api/produto/43266<br /> {<br /> "sku": 43266,<br /> "name": "Teste Alterado",<br /> "inventory": {<br /> "Lwarehouses": [<br /> {<br /> "locality": "ABC PAULISTA",<br /> "quantity": 9,<br /> "type": "teste bla"<br /> },<br /> {<br /> "locality": "RJ-MUDADOS",<br /> "quantity": 4,<br /> "type": "teste bla bla bla"<br /> }<br /> ]<br /> },<br /> }</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+
+
+</body>
+</html>
